@@ -1,0 +1,166 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main, footer, nav, aside, section {
+    display:block;
+}
+
+.logo {
+    width:80px;
+    height:80px;
+    background-repeat:no-repeat;
+    display: block;
+}
+
+#section_1 {
+    background-color: #F9BDBD;
+}
+
+.shape1 {
+    margin-left:40px;
+    margin-top:84px;
+    margin-bottom:84px;
+    width:278px;
+    height:388px;
+}
+
+.mypic {
+    position:absolute;
+    margin-left:120px;
+    margin-top:164px;
+    margin-bottom: 84px;
+    width:300px;
+    height:270px;
+
+}
+
+.bigtext {
+    position:absolute;
+    margin-left:500px;
+    margin-top:230px;
+    margin-bottom:230px;
+    font-size: 40px;
+}
+
+header, footer, main {
+    width:100%;
+}
+
+header, h1 {
+    font-size: x-large;
+}
+
+header .span {
+    margin-bottom: 40px;
+}
+
+.text {
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.text2 {
+    margin-left:58px;
+    margin-top:110px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:4px;
+    padding-bottom:4px;
+    border-radius: 25px 25px 25px 25px;
+    color:black;
+    background-color: white;
+    display:inline-block;
+}
+
+.container {
+    position:relative;
+}
+
+.container img {
+    position:absolute;
+    top:50px;
+    left: 58px;
+    border-radius: 50px 50px 50px 50px;
+    display:inline-block;
+}
+
+.container .img2 {
+    position:absolute;
+    top:50px;
+    left: 287px;
+    border-radius: 50px 50px 50px 50px;
+    display:inline-block;
+}
+
+.container .img3 {
+    position:absolute;
+    top:50px;
+    left: 515px;
+    border-radius: 50px 50px 50px 50px;
+    display:inline-block;
+}
+
+.container .img4 {
+    position:absolute;
+    top:50px;
+    left: 747px;
+    border-radius: 50px 50px 50px 50px;
+    display:inline-block;
+}
+
+.container .img5 {
+    position:absolute;
+    top:50px;
+   left: 976px;
+    border-radius: 50px 50px 50px 50px;
+    display:inline-block;
+}
+
+.card1 {
+    display: inline-block;
+    width: 200px;
+    height: 264px;
+    margin-right:24px;
+    border-radius:50px;
+    background-color: #FDEDE5;
+}
+
+.card2 {
+    display: inline-block;
+    width: 200px;
+    height: 264px;
+    margin-right:24px;
+    border-radius:50px;
+    background-color: #EBF1FF;
+}
+
+.card3 {
+    display: inline-block;
+    width: 200px;
+    height: 264px;
+    margin-right:24px;
+    border-radius:50px;
+    background-color: #EBFFEC;
+}
+
+.card4 {
+    display: inline-block;
+    width: 200px;
+    height: 264px;
+    margin-right:24px;
+    border-radius:50px;
+    background-color: #FFEBFC;
+}
+
+.card5 {
+    display: inline-block;
+    width: 200px;
+    height: 264px;
+    margin-right:24px;
+    border-radius:50px;
+    background-color: #FFFEEB;
+}
+
