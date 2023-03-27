@@ -9,13 +9,22 @@ main, footer, nav, aside, section {
 }
 
 .logo {
-    width:80px;
-    height:80px;
+    background-image: url("css/images/favicon.ico");
+    width:100px;
+    height:100px;
     background-repeat:no-repeat;
+    background-size: contain;
     display: block;
 }
 
-#section_1 {
+.logo span {
+    position:absolute;
+    margin-top: 35px;
+    margin-left: 120px;
+    color:black;
+}
+
+#section_1, footer {
     background-color: #F9BDBD;
 }
 
@@ -34,6 +43,7 @@ main, footer, nav, aside, section {
     margin-bottom: 84px;
     width:300px;
     height:270px;
+    border-radius:25px 25px 25px 25px;
 
 }
 
@@ -43,6 +53,14 @@ main, footer, nav, aside, section {
     margin-top:230px;
     margin-bottom:230px;
     font-size: 40px;
+}
+
+.bigtext2 {
+    position:absolute;
+    margin-left:500px;
+    margin-top:280px;
+    margin-bottom:180px;
+    font-size:20px;
 }
 
 header, footer, main {
