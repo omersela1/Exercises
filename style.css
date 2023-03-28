@@ -1,33 +1,118 @@
 * {
     margin:0;
     padding:0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Rubik,Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main, footer, nav, aside, section {
     display:block;
 }
 
+.flogo {
+    background-image:url("css/images/facebook.png");
+    width:24px;
+    height:24px;
+    margin-right:2px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    display:inline-block;
+}
+
+.ilogo {
+    background-image:url("css/images/instagram.png");
+    width:24px;
+    height:24px;
+    margin-right:2px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    display:inline-block;
+}
+
+.lilogo {
+    background-image:url("css/images/linkedin.png");
+    width:24px;
+    height:24px;
+    margin-right:2px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    display:inline-block;
+}
+
 .logo {
-    background-image: url("css/images/favicon.ico");
-    width:100px;
-    height:100px;
+    background-image: url("css/images/android-chrome-192x192.png");
+    width:120px;
+    height:120px;
     background-repeat:no-repeat;
     background-size: contain;
     display: block;
+    margin:10px;
 }
 
 .logo span {
     position:absolute;
-    margin-top: 35px;
-    margin-left: 120px;
+    margin-top: 50px;
+    margin-left: 140px;
     color:black;
+    font-family: 'Nunito', sans-serif;
 }
 
-#section_1, footer {
+#section_1 {
     background-color: #F9BDBD;
 }
 
+#section_2 {
+    background-color: #F9BDBD;
+    font-family: 'Nunito',sans-serif;
+    margin:40px;
+    height:420px;
+}
+
+#section_2 span {
+    position:relative;
+    top:30px;
+    left:10px;
+    font-size:20px;
+
+
+}
+
+
+#section_2 .span2 {
+    position:relative;
+    top:45px;
+    left: 200px;
+}
+
+#section_2 .span3 {
+    position:relative;
+    top:60px;
+    left: 390px;
+}
+
+#section_2 .span4 {
+    position:relative;
+    top:100px;
+    left: 630px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+#section_2 .span5 {
+    position:relative;
+    top:120px;
+    left:890px;
+    font-size: medium;
+    font-style: italic;
+    font-weight: 600;
+    display: inline-block;
+}
+
+#section_2 .imgsec2 {
+position:absolute;
+top:1510px;
+left:1120px;
+
+}
 .shape1 {
     margin-left:40px;
     margin-top:84px;
@@ -41,13 +126,13 @@ main, footer, nav, aside, section {
     margin-left:120px;
     margin-top:164px;
     margin-bottom: 84px;
-    width:300px;
+    width:290px;
     height:270px;
     border-radius:25px 25px 25px 25px;
-
 }
 
 .bigtext {
+    font-family: 'Nunito',sans-serif;
     position:absolute;
     margin-left:500px;
     margin-top:230px;
@@ -55,7 +140,9 @@ main, footer, nav, aside, section {
     font-size: 40px;
 }
 
+
 .bigtext2 {
+    font-family:'Nunito',sans-serif;
     position:absolute;
     margin-left:500px;
     margin-top:280px;
@@ -69,6 +156,10 @@ header, footer, main {
 
 header, h1 {
     font-size: x-large;
+}
+
+h1, p, ul {
+    margin-left:10px;
 }
 
 header .span {
@@ -88,10 +179,12 @@ header .span {
     padding-top:4px;
     padding-bottom:4px;
     border-radius: 25px 25px 25px 25px;
-    color:black;
-    background-color: white;
+    color:#171F46;
+    background-color: #FFFFFF;
     display:inline-block;
 }
+
+
 
 .container {
     position:relative;
@@ -100,40 +193,35 @@ header .span {
 .container img {
     position:absolute;
     top:50px;
-    left: 58px;
-    border-radius: 50px 50px 50px 50px;
+    left: 72px;
     display:inline-block;
 }
 
 .container .img2 {
     position:absolute;
     top:50px;
-    left: 287px;
-    border-radius: 50px 50px 50px 50px;
+    left: 300px;
     display:inline-block;
 }
 
 .container .img3 {
     position:absolute;
     top:50px;
-    left: 515px;
-    border-radius: 50px 50px 50px 50px;
+    left: 525px;
     display:inline-block;
 }
 
 .container .img4 {
     position:absolute;
     top:50px;
-    left: 747px;
-    border-radius: 50px 50px 50px 50px;
+    left: 760px;
     display:inline-block;
 }
 
 .container .img5 {
     position:absolute;
     top:50px;
-   left: 976px;
-    border-radius: 50px 50px 50px 50px;
+   left: 990px;
     display:inline-block;
 }
 
@@ -142,6 +230,7 @@ header .span {
     width: 200px;
     height: 264px;
     margin-right:24px;
+    margin-left: 24px;
     border-radius:50px;
     background-color: #FDEDE5;
 }
@@ -180,5 +269,31 @@ header .span {
     margin-right:24px;
     border-radius:50px;
     background-color: #FFFEEB;
+}
+ .card1 a :hover {
+    background-color:#171F46;
+    color:#FDEDE5;
+}
+
+.card2 a :hover{
+    background-color:#171F46;
+    color:#EBF1FF;
+}
+
+.card3 a :hover {
+    background-color:#171F46;
+    color:#EBFFEC;
+
+}
+
+.card4 a :hover {
+    background-color:#171F46;
+    color:#FFEBFC;
+}
+
+.card5 a :hover {
+    background-color:#171F46;
+    color:#FFFEEB;
+
 }
 
