@@ -8,6 +8,11 @@ main, footer, nav, aside, section {
     display:block;
 }
 
+footer {
+    padding-top:10px;
+    background-color: #FDEDE5;
+}
+
 .flogo {
     background-image:url("css/images/facebook.png");
     width:24px;
@@ -85,11 +90,17 @@ main, footer, nav, aside, section {
 
 #section_2 .span3 {
     position:relative;
-    top:60px;
+    top:62px;
     left: 390px;
 }
 
 #section_2 .span4 {
+    position:relative;
+    top:80px;
+    left: 470px;
+}
+
+#section_2 .span5 {
     position:relative;
     top:100px;
     left: 630px;
@@ -97,9 +108,9 @@ main, footer, nav, aside, section {
     font-weight: 600;
 }
 
-#section_2 .span5 {
+#section_2 .span6 {
     position:relative;
-    top:120px;
+    top:110px;
     left:890px;
     font-size: medium;
     font-style: italic;
