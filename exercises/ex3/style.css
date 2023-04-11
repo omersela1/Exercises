@@ -61,9 +61,9 @@ footer {
 
 .select1 {
     display: block;
-    position:absolute;
+    position:relative;
     top:36px;
-    left:557px;
+    left:57px;
     height: 18px;
     width: 18px;
     border-radius: 10px;
@@ -72,9 +72,9 @@ footer {
 
 .select2 {
     display: block;
-    position:absolute;
+    position:relative;
     top:36px;
-    left:605px;
+    left:102px;
     height: 18px;
     width: 18px;
     border-radius: 10px;
@@ -83,9 +83,9 @@ footer {
 
 .select3 {
     display: block;
-    position:absolute;
+    position:relative;
     top:36px;
-    left:678px;
+    left:177px;
     height: 18px;
     width: 18px;
     border-radius: 10px;
