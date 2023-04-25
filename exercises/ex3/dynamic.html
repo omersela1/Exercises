@@ -17,23 +17,100 @@
                 <li><a href="#">DYNAMIC</a></li>
             </ul>
         </nav>
+        
         </div>
         </header>
+        <h1>Memory Game!</h1>
+        <br>
+    <p>Tip: If you know the next block you click is the double of the one currently revealed,
+        give both of them a second click to "lock" them.
+    </p>
         <main>
         
         <div id="wrapper">
-        <section class="dynamic">
-        <div class="dynamicObj"></div>
-        <div class="dObj1"></div>
-        <div class="dObj2"></div>
-        <div class="dObj3"></div>
+
+        <script>
+            var wrapper = document.getElementById('wrapper');
+
+            var object = document.createElement('div');
+            object.className ='blackBox';
+            object.innerHTML = '<a class="innerText">A</a>';
+            wrapper.appendChild(object);
+
+            var object1 = document.createElement('div');
+            object1.className ='blackBox';
+            object1.innerHTML = '<a class="innerText">B</a>';
+            wrapper.appendChild(object1);
+
+            var object2 = document.createElement('div');
+            object2.className ='blackBox';
+            object2.innerHTML = '<a class="innerText">C</a>';
+            wrapper.appendChild(object2);
+
+            var object3 = document.createElement('div');
+            object3.className ='blackBox';
+            object3.innerHTML = '<a class="innerText">B</a>';
+            wrapper.appendChild(object3);
+
+            var object4 = document.createElement('div');
+            object4.className ='blackBox';
+            object4.innerHTML = '<a class="innerText">C</a>';
+            wrapper.appendChild(object4);
+
+            var object5 = document.createElement('div');
+            object5.className ='blackBox';
+            object5.innerHTML = '<a class="innerText">A</a>';
+            wrapper.appendChild(object5);
+
+
+            var on_off = 0;
+            function switchOnOff() {
+                if (on_off == 0)
+                    on_off = 1;
+                else
+                    on_off = 0;
+            }
+
+            var buffer = "";
+
+            var allBoxes = document.querySelectorAll('.blackBox');
+            allBoxes.forEach(function(div) {
+                div.addEventListener('click', function() {
+                if (on_off == 0) {
+                     var text = this.querySelector('.innerText');
+                     text.style.color = '#C4C4C4';
+                      buffer = this.innerHTML;
+                     switchOnOff();
+                 }
+                 else {
+                    if (this.innerHTML != buffer) {
+                        allBoxes.forEach(function(div) {
+                            if (div.innerHTML == buffer) {
+                                var text = div.querySelector('.innerText')
+                               text.style.color = "#000000";
+                            }
+                        });
+                        buffer = "";
+                        switchOnOff();
+                    }
+                    else {
+                        var text = this.querySelector('.innerText');
+                        text.style.color = '#C4C4C4';
+                        buffer = "";
+                        switchOnOff();
+                    };
+
+                };
+            });
+
+        });
+
+       
+            
+
+        </script>
+
         </section>
-        <section class="dynamic">
-            <div class="dynamicObj"></div>
-            <div class="dObj1"></div>
-            <div class="dObj2"></div>
-            <div class="dObj3"></div>
-            </section>
         </div>
         </main>
         <footer>

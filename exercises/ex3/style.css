@@ -14,8 +14,9 @@ header {
     height:123px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, p {
     font-family: 'Amiko', sans-serif;
+    margin-left: 30px;
 }
 
 
@@ -33,6 +34,17 @@ nav li {
 
 }
 
+.blackBox {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #000000;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 25px 25px;
+}
+
 a {
   text-decoration: none;
   color: #000000;  
@@ -47,6 +59,13 @@ a :hover {
     width: 960px;
     display: flex;
     justify-content: space-between;
+
+}
+
+.innerText {
+    font-family: 'Amiko', sans-serif;
+    font-size: 40px;
+    color: #000000;
 }
 
 footer {
