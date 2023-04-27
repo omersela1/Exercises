@@ -75,7 +75,7 @@ footer {
     left:0;
     bottom:0;
     width:100%;
-    padding:1px;
+    padding:10px;
 }
 
 .select1 {
@@ -191,6 +191,40 @@ aside h3 {
     height:299px;
     background-color: #C4C4C4;
     align-self: self-end;
+}
+
+.sideObj {
+    display: block;
+    position: fixed;
+    background-color: #EBEF18;
+    right: 0px;
+    top:121px;
+    width:100px;
+    height:550px;
+
+    
+}
+
+.sideObj1 {
+    display: block;
+    position:relative;
+    background-color:#000000;
+    left: 0px;
+    width:40px;
+    height:40px;
+    margin-bottom: 100px;
+}
+
+.sideObj2 {
+    display: block;
+    position:relative;
+    background-color:#000000;
+    right: 0px;
+    left:60px;
+    width:60px;
+    height:60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .stairObj1 {
