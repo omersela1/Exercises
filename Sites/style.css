@@ -1,0 +1,120 @@
+#container {
+    width: 0 auto;
+}
+
+body {
+    background: linear-gradient(to bottom, #8a0707, #190f0f);
+    padding-top: 10px;
+
+}
+
+.containedForm {
+    width: 40%;
+}
+
+.title {
+    color:#666;
+}
+
+h1, h2, h3, h4, label, .submitButton  {
+    color:#666;
+    font-family: 'Yatra One', cursive !important;
+}
+
+.submitButton {
+    background: linear-gradient(to top, #ff0101, #e2ff9f);
+}
+
+#realButton {
+    display: none;
+}
+
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(800px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes stay {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes moveDown {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(800px);
+    }
+}
+
+.demon {
+    position: fixed;
+  top: 150px; /* Adjust as needed */
+  left: 600px; /* Adjust as needed */
+  width: 10px; /* Adjust as needed */
+  height: 10px; /* Adjust as needed */
+    animation: moveUp 12s linear;
+}
+
+.speechBubble {
+    position:fixed;
+    display: none;
+    color:#666;
+    opacity: 66%;
+    font-family: 'Yatra One', cursive !important;
+    background-color: rgb(117, 202, 52);
+    border: #666;
+    border-width: 2px;
+    text-align: center;
+    padding:30px;
+    border-radius: 50%;
+    top:550px;
+    left:420px;
+    width:550px;
+}
+
+#speechText {
+    overflow: hidden;
+    white-space: nowrap;
+    animation:typing 6s steps(73) forwards;
+}
+
+@keyframes typing {
+    0% {
+        width:0;
+    }
+    100% {
+        width:100%;
+    }
+}
+
+.speechBubble2 {
+    position:fixed;
+    display: none;
+    background-color: rgb(117, 202, 52);
+    padding:10px;
+    border-radius: 50%;
+    border: #666;
+    opacity: 66%;
+    top:540px;
+    left:920px;
+    width:30px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
