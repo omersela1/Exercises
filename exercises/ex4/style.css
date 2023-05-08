@@ -59,10 +59,10 @@ h1, h2, h3, h4, label, .submitButton  {
 
 .demon {
     position: fixed;
-  top: 150px; /* Adjust as needed */
+  top: 25%; /* Adjust as needed */
   left: 45%; /* Adjust as needed */
-  width: 10px; /* Adjust as needed */
-  height: 10px; /* Adjust as needed */
+  width: 30%; /* Adjust as needed */
+ /* Adjust as needed */
     animation: moveUp 12s linear;
 }
 
@@ -78,9 +78,9 @@ h1, h2, h3, h4, label, .submitButton  {
     text-align: center;
     padding:30px;
     border-radius: 50%;
-    top:550px;
+    bottom:15%;
     left:30%;
-    width:550px;
+    width:40%;
 }
 
 #speechText {
@@ -106,7 +106,7 @@ h1, h2, h3, h4, label, .submitButton  {
     border-radius: 50%;
     border: #666;
     opacity: 66%;
-    top:540px;
+    bottom:25%;
     left:65%;
     width:30px;
 }
