@@ -59,10 +59,9 @@ h1, h2, h3, h4, label, .submitButton  {
 
 .demon {
     position: fixed;
-  top: 25%; /* Adjust as needed */
-  left: 45%; /* Adjust as needed */
-  width: 30%; /* Adjust as needed */
- /* Adjust as needed */
+  top: 25%;
+  left: 45%;
+  width: 30%;
     animation: moveUp 12s linear;
 }
 
