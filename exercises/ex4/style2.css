@@ -1,0 +1,14 @@
+.container {
+    width: 0 auto;
+}
+
+.containedForm {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 40%;
+}
+
+.submitButton {
+    background-color: blue;
+    color:aliceblue;
+}
