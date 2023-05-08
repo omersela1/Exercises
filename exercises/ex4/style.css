@@ -60,7 +60,7 @@ h1, h2, h3, h4, label, .submitButton  {
 .demon {
     position: fixed;
   top: 150px; /* Adjust as needed */
-  left: 600px; /* Adjust as needed */
+  left: 45%; /* Adjust as needed */
   width: 10px; /* Adjust as needed */
   height: 10px; /* Adjust as needed */
     animation: moveUp 12s linear;
@@ -79,7 +79,7 @@ h1, h2, h3, h4, label, .submitButton  {
     padding:30px;
     border-radius: 50%;
     top:550px;
-    left:420px;
+    left:30%;
     width:550px;
 }
 
@@ -107,7 +107,7 @@ h1, h2, h3, h4, label, .submitButton  {
     border: #666;
     opacity: 66%;
     top:540px;
-    left:920px;
+    left:65%;
     width:30px;
 }
 
