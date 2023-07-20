@@ -1,0 +1,28 @@
+{
+    "wards": [
+        {
+            "key": 0,
+            "name": "All Wards"
+        },
+        {
+            "key": 1,
+            "name": "Surgical"
+        },
+        {
+            "key": 2,
+            "name": "Pediatric"
+        },
+        {
+            "key": 3,
+            "name": "Internal"
+        },
+        {
+            "key": 4,
+            "name": "Oncological"
+        },
+        {
+            "key": 5,
+            "name": "Geriatric"
+        }
+    ]
+}

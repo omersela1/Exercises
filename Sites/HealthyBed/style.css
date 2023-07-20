@@ -1,0 +1,1341 @@
+* {
+    font-family: 'Coda', sans-serif;
+}
+
+h1 {
+    color: #5bc0de;
+}
+
+h2 {
+    color: black;
+    opacity: 40%;
+    font-size: larger;
+}
+
+h3 {
+    color: black;
+}
+
+footer {
+    display: none;
+    position: sticky;
+}
+
+
+#wrapper {
+    position: relative;
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+#loginWrapper {
+    position: relative;
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    /* margin-top: 10px; */
+    align-items: center;
+}
+
+.loginform {
+    align-self: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#graphContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.userLogout {
+    margin-top: 20px;
+}
+
+canvas {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.graph {
+    display: inline-block;
+    background-size: contain;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.logo {
+    position: sticky;
+    position: absolute;
+    top: 4%;
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 15px;
+    display: block;
+    background-size: contain;
+    background-image: url("images/HealthyBedLogo.png");
+    height: 180px;
+    width: 180px;
+    background-repeat: no-repeat;
+}
+
+.logoLogin {
+    align-self: center;
+    display: block;
+    background-size: contain;
+    background-image: url("images/HealthyBedLogoLogin.png");
+    height: 150px;
+    width: 400px;
+    background-repeat: no-repeat;
+    margin: 80px auto 0px auto;
+}
+
+#loginButton {
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+    margin: 80px auto;
+}
+
+header {
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: flex-end;
+    background: #5bc0de;
+    height: 14vw;
+    margin-bottom: 20px;
+}
+
+.userImage {
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    border-radius: 100px 100px 100px 100px;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+
+}
+
+.connected1 {
+    display: flex;
+    color: rgb(242, 240, 240);
+    gap: 10px;
+    position: sticky;
+    position: absolute;
+    top: 35px;
+    right: 50px;
+
+}
+
+
+.connected2 {
+    display: block;
+}
+
+.circleMiniG {
+    display: flex;
+    position: sticky;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #62c462;
+    border-color: #ffffff;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 100%;
+    top: 25px;
+
+}
+
+.connected3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: fit-content;
+    height: fit-content;
+    color: #232323;
+    position: sticky;
+    margin: 0px 0px 100px 14px;
+}
+
+.logoutButton {
+    font-size: small;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: fit-content;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    width: 100%;
+}
+
+.verticalLineNavbar {
+    width: 1px;
+    height: 31px;
+    opacity: 50%;
+    border-color: #ffffff;
+    border-width: 0.7px;
+    border-style: solid;
+    margin: 0px 0px 12px 0px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    margin: 0;
+    text-decoration: none;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: white;
+    font-size: x-large;
+}
+
+.navbar-mobile {
+    position: sticky;
+    width: 100%;
+    display: none;
+}
+
+.navbar-mobile ul {
+    display: none;
+    list-style-type: none;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    margin: 0;
+    text-decoration: none;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.btn svg {
+    background: none;
+    opacity: 70%;
+    position: sticky;
+    margin-left: 88px;
+    margin-right: 88px;
+    bottom: 2px;
+}
+
+#register-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40%;
+
+}
+
+#login-form {
+    width: 400px;
+}
+
+.submitButton {
+    display: block;
+    width: fit-content;
+    background-color: #006ce5;
+    margin-bottom: 100px;
+}
+
+.spaceButton {
+    margin-left: 20px;
+    align-self: flex-end;
+}
+
+.displayUserDetails {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.displayUserImage {
+    width: 80%;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.displayUserImage img {
+    height: 300px;
+    width: 300px;
+}
+
+.navbar .navbar-inverse .navbar-static-top ul li .selected {
+    text-decoration: underline;
+    border-bottom: 2px solid white;
+}
+
+.login-button {
+    display: block;
+    font-size: large;
+    color: #8cdaf1;
+    background-color: #291feb;
+    opacity: 70%;
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+a {
+    color: white;
+    opacity: 70%;
+    text-decoration: none;
+}
+
+.selected {
+    opacity: 100%;
+    color: white;
+}
+
+.formContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+.formObject {
+    display: inline-flex;
+    align-self: center;
+    width: 18%;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-inline: 15px;
+}
+
+.submitButton {
+    color: white;
+    background-color: #006ce5;
+}
+
+.releaseButton {
+    align-self: flex-end;
+}
+
+.searchButton {
+    color: white;
+    background-color: #006ce5;
+    display: inline;
+    margin-left: 10px;
+}
+
+.addremoveButton {
+    display: block;
+    width: fit-content;
+    height: 40px;
+    text-align: center;
+    background-color: #5bc0de;
+}
+
+#addForm {
+    display: none;
+    width: 40%;
+    align-self: flex-start;
+}
+
+
+#listContainer {
+    position: absolute;
+    margin: 3% auto;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+}
+
+.listObject {
+    position: relative;
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    margin: 20px 20px;
+    width: 270px;
+    height: fit-content;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #a8e2f4;
+    opacity: 70%;
+}
+
+.listObjectPlus {
+    display: flex;
+    align-self: flex-start;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #5bc0de;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.listObjectPlus a {
+    align-self: flex-start;
+    opacity: 100%;
+}
+
+.validIcon {
+    display: block;
+    margin: 1px 0px 2px 2px;
+    justify-self: end;
+    align-self: flex-end;
+    position: sticky;
+}
+
+.addIcon {
+    display: flex;
+    margin: 5px 0px 2px 20px;
+    padding-left: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+
+
+.validMap {
+    display: flex;
+    background-image: url("images/map-icon.svg");
+    width: 20px;
+    height: 20px;
+    /* margin: 5px 0px 8px 75px; */
+    margin: 7px 0px 8px 75px;
+}
+
+.listObject h5 {
+    font-size: medium;
+    width: fit-content;
+    margin: 5px 0 0 5px;
+}
+
+.listObject label {
+    font-size: small;
+    width: fit-content;
+    margin: 8px 0 2px 2px;
+}
+
+#bedContainer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+#bedUpdateContainer {
+    margin-top: 60px;
+    padding-bottom: 40px;
+}
+
+#bedUpdateContainer h2 {
+    position: sticky;
+}
+
+
+.updateObject {
+    display: flex;
+    width: 80%;
+    height: fit-content;
+    padding: 10px;
+    margin: 60px;
+    background-color: #5bc0de;
+    opacity: 70%;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.updateButtons {
+    display: block;
+    position: sticky;
+    align-self: flex-end;
+    text-align: center;
+    background-color: #018cb6;
+    color: white;
+    font-size: small;
+    height: fit-content;
+    width: 100px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.updateTime {
+    font-size: small;
+    display: block;
+    align-self: flex-end;
+    text-align: center;
+
+}
+
+.updateButtons a {
+    align-self: auto;
+}
+
+.updateObject h2 {
+    color: black;
+    opacity: 100%;
+    margin-right: 20px;
+}
+
+.updateObject h5 {
+    font-size: medium;
+}
+
+.updateObject p {
+    position: sticky;
+    width: 100%;
+    align-self: flex-start;
+}
+
+#bedFullPageContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#bedUpdateContainer {
+    width: 100%;
+}
+
+#bedContainer {
+    width: 100%;
+
+}
+
+#bedContainer h2 {
+    margin-bottom: 240px;
+}
+
+
+
+#bedContainer a {
+    display: flex;
+    align-items: center;
+}
+
+.bedIconText {
+    display: block;
+    align-self: center;
+    position: relative;
+    color: black;
+    top: 100px;
+    width: fit-content;
+}
+
+
+
+.validBedLogo {
+    display: flex;
+    justify-content: center;
+    margin: 25px 60px 10px 40px;
+    flex-direction: column;
+}
+
+.validBedLogo svg {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+
+}
+
+.validBedLogo label {
+    position: sticky;
+    align-self: center;
+    width: fit-content;
+}
+
+.NavigateBedIcon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 25px 60px 0px 40px;
+}
+
+.NavigateBedIcon svg {
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 15px;
+}
+
+.NavigateBedIcon label {
+    position: sticky;
+    align-self: center;
+    width: fit-content;
+}
+
+
+.TasksBedIcon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 25px 60px 0px 40px;
+
+}
+
+.TasksBedIcon svg {
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 14px;
+}
+
+
+.TasksBedIcon label {
+    align-self: center;
+    width: fit-content;
+    position: sticky;
+}
+
+.maintenanceBedIcon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 25px 40px 0px 40px;
+}
+
+.maintenanceBedIcon svg {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 25px;
+}
+
+.maintenanceBedIcon label {
+    position: sticky;
+    left: 15px;
+}
+
+#formWrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+#bedFormContainer {
+    margin-top: 30px;
+    margin-left: 20px;
+    display: block;
+    width: 45%;
+    padding-bottom: 80px;
+}
+
+
+
+
+.form-control {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+/* media queries */
+
+
+
+
+
+
+
+
+@media screen and (max-width:1250px) {
+    .logo {
+        height: 150px;
+        width: 150px;
+    }
+
+    #wrapper {
+        width: 880px;
+    }
+
+    .listObject {
+        width: 220px;
+        margin: 20px;
+    }
+
+    .listObject h5 {
+        font-size: 12px;
+        align-self: flex-start;
+        text-align: left;
+    }
+
+    .formObject {
+        width: 150px;
+    }
+
+    .listContainer {
+        justify-content: space-evenly;
+    }
+
+    .validIcon {
+        margin-top: 2px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .addIcon {
+        width: 20px;
+        height: 20px;
+        margin-right: 2px;
+    }
+
+
+    .validMap {
+        margin-top: 5px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .listObjectPlus h5 {
+        font-size: 11px;
+        margin-bottom: 0px;
+    }
+
+    .validBedLogo {
+        height: 150px;
+        width: 150px;
+    }
+
+    .NavigateBedIcon {
+        height: 150px;
+        width: 150px;
+    }
+
+
+    .TasksBedIcon {
+        height: 150px;
+        width: 150px;
+    }
+
+    .maintenanceBedIcon {
+        height: 150px;
+        width: 150px;
+    }
+
+    .bedIconText {
+        top: 80px;
+    }
+
+    .TasksBedIcon .bedIconText {
+        left: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:400px) and (max-width:900px) {
+    #bedFormContainer {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .displayUserDetails {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .displayUserImage {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    .displayUserImage img {
+        width: 280px;
+        height: 280px;
+    }
+
+
+
+
+
+    .addIcon {
+        padding-left: 0px;
+    }
+
+
+    .verticalLineNavbar {
+        display: none;
+    }
+
+    .connected3 {
+        display: none;
+    }
+
+
+
+    .connected2 h5 {
+        font-size: medium;
+    }
+
+    .connected1 {
+        top: 20px;
+    }
+
+    .userImage {
+        height: 35px;
+        width: 35px;
+    }
+
+
+
+
+    .logo {
+        height: 80px;
+        width: 80px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    #wrapper {
+        width: 650px;
+    }
+
+    .formContainer {
+        justify-content: center;
+    }
+
+    .formObject {
+        width: 15%;
+        font-size: small;
+    }
+
+    .listContainer {
+        justify-content: center;
+    }
+
+    .listObject {
+        width: 180px;
+        height: 103px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+
+    .listObject h5 {
+        font-size: x-small;
+        margin: 5px 0 0 5px;
+    }
+
+    .listObjectPlus {
+        top: 5px;
+    }
+
+
+    .listObject a {
+        font-size: 14px;
+    }
+
+    .validIcon {
+        height: 20px;
+        width: 20px;
+    }
+
+    .addIcon {
+        width: 19px;
+        height: 19px;
+    }
+
+
+    .validMap {
+        width: 15px;
+        height: 15px;
+        margin-bottom: 1px;
+    }
+
+
+
+
+    .listObject label {
+        font-size: x-small;
+        width: fit-content;
+        margin: 5px 0 11.5px 2px;
+    }
+
+    #bedContainer a label {
+        top: 45px;
+        font-size: small;
+        width: fit-content;
+        text-align: center;
+    }
+
+    .validBedLogo {
+        height: 120px;
+        width: 120px;
+        margin: 20px;
+
+    }
+
+    .NavigateBedIcon {
+        height: 120px;
+        width: 120px;
+        margin: 20px;
+
+    }
+
+
+    .TasksBedIcon {
+        height: 120px;
+        width: 120px;
+        margin: 20px;
+    }
+
+    .TasksBedIcon .bedIconText {
+        left: 25px;
+    }
+
+    .maintenanceBedIcon {
+        height: 120px;
+        width: 120px;
+        margin: 20px;
+    }
+
+    .maintenanceBedIcon .bedIconText {
+        left: -5px;
+    }
+
+
+
+}
+
+
+
+
+@media screen and (max-width:650px) {
+    #bedFormContainer {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .displayUserDetails {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .displayUserImage {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    .displayUserImage img {
+        width: 240px;
+        height: 240px;
+    }
+
+
+
+    #bedContainer {
+        margin-bottom: 80px;
+    }
+
+
+    #bedUpdateContainer {
+        margin-top: 40px;
+    }
+
+
+    .verticalLineNavbar {
+        display: none;
+    }
+
+    .connected3 {
+        display: none;
+    }
+
+    .connected2 h5 {
+        display: none;
+    }
+
+    .connected1 {
+        top: 20px;
+    }
+
+
+
+    #wrapper {
+        width: 95%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    footer {
+        width: 100%;
+        height: 50px;
+        background-color: #5bc0de;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        bottom: 0px;
+
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-mobile svg {
+        position: sticky;
+        margin-top: 7px;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        height: 150px;
+        width: 150px;
+        align-self: center;
+    }
+
+    header {
+        height: 100px;
+        justify-content: center;
+    }
+
+    .updateObject {
+        font-size: x-small;
+    }
+
+    .updateButtons {
+        font-size: xx-small;
+    }
+
+    .listContainer {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .listObject {
+        width: 70%;
+        height: fit-content;
+        margin: 20px 20px 20px 50px;
+    }
+
+    .listObjectPlus {
+        justify-content: right;
+    }
+
+    .listObjectPlus h5 {
+        margin: 8px 18px 0px 0px;
+    }
+
+
+    .formObject {
+        font-size: small;
+        width: 120px;
+        height: fit-content;
+        margin-left: 35px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .listObject h5 {
+        font-size: small;
+    }
+
+    .listObject label {
+        font-size: xx-small;
+    }
+
+    .btn svg {
+        margin: 0;
+        display: none;
+        position: relative;
+    }
+
+    #bedContainer {
+        justify-content: space-evenly;
+    }
+
+
+    #bedContainer a {
+        display: block;
+        margin: 10px;
+    }
+
+    #bedContainer a label {
+        display: block;
+        top: 115px;
+    }
+
+    .bedIconText {
+        font-size: small;
+        text-align: center;
+    }
+
+    .validBedLogo svg {
+        height: 100px;
+        width: 100px;
+    }
+
+    .NavigateBedIcon svg {
+        height: 100px;
+        width: 100px;
+    }
+
+
+
+    .TasksBedIcon svg {
+        height: 100px;
+        width: 100px;
+    }
+
+
+    .maintenanceBedIcon svg {
+        height: 100px;
+        width: 100px;
+    }
+
+    .userImage {
+        height: 45px;
+        width: 45px;
+    }
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width:400px) {
+    #wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #login-form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .logoLogin {
+        top: 40px;
+        width: 250px;
+        height: 100px;
+    }
+
+    #bedContainer {
+        justify-content: space-evenly;
+    }
+
+    .connected1 {
+        right: 25px;
+    }
+
+    .validIcon {
+        width: 26px;
+        height: 26px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .mapIcon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .listObjectPlus h5 {
+
+        width: 100%;
+        justify-self: left;
+    }
+
+    #bedContainer {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #bedContainer a {
+        display: block;
+        margin: 10px;
+    }
+
+    #bedContainer a label {
+        display: block;
+        top: 83px;
+    }
+
+    .bedIconText {
+        font-size: small;
+        text-align: center;
+    }
+
+    .bedIconText {
+        display: block;
+        align-self: center;
+        position: relative;
+        color: black;
+        top: 100px;
+        width: fit-content;
+    }
+
+
+
+    .validBedLogo {
+        display: flex;
+        justify-content: center;
+        margin: 25px 60px 10px 40px;
+        flex-direction: column;
+    }
+
+    .validBedLogo svg {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 10px;
+
+    }
+
+    .NavigateBedIcon {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 25px 60px 0px 40px;
+    }
+
+    .NavigateBedIcon svg {
+        display: block;
+        width: 70px;
+        height: 70px;
+        margin-bottom: 15px;
+    }
+
+    .NavigateBedIcon label {
+        margin-left: 10px;
+    }
+
+
+    .TasksBedIcon {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 25px 60px 0px 40px;
+
+    }
+
+    .TasksBedIcon svg {
+        display: block;
+        width: 70px;
+        height: 70px;
+        margin-bottom: 14px;
+    }
+
+    .TasksBedIcon label {
+        margin-left: 20px;
+    }
+
+
+
+    .maintenanceBedIcon {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 25px 40px 0px 40px;
+    }
+
+    .maintenanceBedIcon svg {
+        display: block;
+        width: 70px;
+        height: 70px;
+        margin-bottom: 12px;
+    }
+
+    .maintenanceBedIcon label {
+        position: sticky;
+    }
+
+
+
+
+    .formObject {
+        width: 120px;
+    }
+
+
+}
+
+@media screen and (max-width:399px) {
+    .formObject {
+        width: 100px;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .listObjectPlus h5 {
+        font-size: small;
+        position: sticky;
+        left: 10px;
+    }
+
+    .updateObject h5 {
+        font-size: 10px;
+    }
+
+    .addIcon {
+        padding-left: 0px;
+    }
+
+}
+
+@media screen and (max-width:370px) {
+    .listObjectPlus h5 {
+        font-size: x-small;
+
+    }
+
+}
+
+
+
+@media screen and (max-width:281px) {
+
+    .formObject {
+        width: 75px;
+        font-size: xx-small;
+    }
+
+    .listObjectPlus h5 {
+        width: max-content;
+        display: contents;
+        font-size: x-small;
+
+    }
+}
